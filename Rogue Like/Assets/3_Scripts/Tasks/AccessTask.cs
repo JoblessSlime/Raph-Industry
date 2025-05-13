@@ -5,8 +5,10 @@ public class AccessTask : MonoBehaviour
 {
     public InputActionReference action_Interact;
     public GameObject TaskPanel;
+    public GameObject ShowInput;
 
-    private bool playerIsInZone = false;
+    public bool taskAlreadyDone = false;
+    public bool playerIsInZone = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -16,16 +18,18 @@ public class AccessTask : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") && !taskAlreadyDone)
         {
             playerIsInZone = true;
+            ShowInput.SetActive(true);
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") && !taskAlreadyDone)
         {
             playerIsInZone = false;
+            ShowInput.SetActive(false);
         }
     }
 
@@ -36,7 +40,6 @@ public class AccessTask : MonoBehaviour
         {
             if (action_Interact.action.WasPressedThisFrame())
             {
-                Debug.Log("shouldWork");
                 PlayTask();
             }
         }
@@ -45,5 +48,12 @@ public class AccessTask : MonoBehaviour
     void PlayTask()
     {
         TaskPanel.SetActive(true);
+    }
+
+    public void TaskFinished()
+    {
+        taskAlreadyDone = true;
+        playerIsInZone = false;
+        ShowInput.SetActive(false);
     }
 }

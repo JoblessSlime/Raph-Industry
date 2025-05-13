@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class CharacterInputs : MonoBehaviour
 {
@@ -130,8 +131,8 @@ public class CharacterInputs : MonoBehaviour
     void Death()
     {
         Debug.Log("Death");
-
         // Reinitialize game
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     void ZoomCamera()
