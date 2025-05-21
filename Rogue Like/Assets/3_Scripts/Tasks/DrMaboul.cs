@@ -22,17 +22,17 @@ public class DrMaboul : MonoBehaviour
 
     private void Start()
     {
-        Cursor.lockState = CursorLockMode.Confined;
-        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = false;
 
-        /*
+        
         basePosition = Input.mousePosition;
         baseObjectPos = gameObject.transform.position;
-        */
+        
     }
     void Update()
     {
-        /*
+        
         Vector2 mousePos = Input.mousePosition;
         Vector2 newPos = mousePos - basePosition;
 
@@ -40,12 +40,8 @@ public class DrMaboul : MonoBehaviour
         {
             position = baseObjectPos + newPos,
         };
-        */
 
-        PointerEventData pointerData = new PointerEventData(eventSystem)
-        {
-            position = Input.mousePosition,
-        };
+        gameObject.transform.position = pointerData.position;
 
         List<RaycastResult> results = new List<RaycastResult>();
         raycaster.Raycast(pointerData, results);

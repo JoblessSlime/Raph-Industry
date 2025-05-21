@@ -4,9 +4,15 @@ using UnityEngine.SceneManagement;
 
 public class CharacterInputs : MonoBehaviour
 {
-    [Header("---------- INPUTS ----------")]
+    [Header("---------- Scripts ----------")]
+    public NewController2D newController2D;
+
+    [Header("---------- Inputs ----------")]
     public InputActionReference action_Crouch;
     public InputActionReference action_Interact;
+    public InputActionReference action_Jump;
+    public InputActionReference action_Move;
+    public InputActionReference action_Run;
 
     [Header("---------- States ----------")]
     public GameObject characterUP;
@@ -79,6 +85,18 @@ public class CharacterInputs : MonoBehaviour
         else if (action_Crouch.action.WasReleasedThisFrame())
         {
             Crouch(false);
+        }
+
+        // Move
+        if (action_Move.action.WasPressedThisFrame())
+        {
+            newController2D.Move(action_Move.action.ReadValue<Vector2>(), action_Run);
+        }
+
+        // Jump
+        if (action_Jump.action.WasPressedThisFrame())
+        {
+            newController2D.Jump();
         }
 
         // Death

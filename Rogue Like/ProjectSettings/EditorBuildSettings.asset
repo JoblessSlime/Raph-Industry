@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/4_Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: Assets/4_Scenes/TrainingRoom.unity
+    guid: 25dd24d660e2e774eaa294a941087d52
+  - enabled: 1
     path: Assets/4_Scenes/Test_Raph.unity
     guid: 058154aca80b6e34ea2abbda2c979477
   m_configObjects:
