@@ -14,6 +14,8 @@ public class Souriciere : MonoBehaviour
     public GameManager gameManager;
     public GameObject TaskPanel;
 
+    public bool taskKills;
+
     private Vector2 basePosition = Vector2.zero;
     private Vector2 baseObjectPos = Vector2.zero;
 
@@ -68,7 +70,14 @@ public class Souriciere : MonoBehaviour
 
     void Lose()
     {
-        characterInputs.hp = 0;
+        if (taskKills)
+        {
+            characterInputs.hp = 0;
+        }
+        else
+        {
+            TaskPanel.SetActive(false);
+        }
     }
 
     void Win()

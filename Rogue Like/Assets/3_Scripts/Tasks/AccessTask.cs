@@ -47,7 +47,10 @@ public class AccessTask : MonoBehaviour
 
     void PlayTask()
     {
-        TaskPanel.SetActive(true);
+        if (TaskPanel != null)
+        {
+            TaskPanel.SetActive(true);
+        }
     }
 
     public void TaskFinished()

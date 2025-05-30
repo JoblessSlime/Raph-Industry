@@ -1,3 +1,4 @@
+using DG.Tweening.Core.Easing;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -5,8 +6,11 @@ public class FilsElectrique : MonoBehaviour
 {
     public InputActionReference action_Interact;
     public GameObject ShowInput;
+    public GameManager gameManager;
+    public AccessTask accessTask;
 
     private bool isCarryingWire = false;
+    public bool isInFinishZone = false;
     public bool taskAlreadyDone = false;
     public bool playerIsInZone = false;
 
@@ -23,6 +27,11 @@ public class FilsElectrique : MonoBehaviour
             playerIsInZone = true;
             ShowInput.SetActive(true);
         }
+
+        else if (collision.CompareTag("WireFinishZone") && !taskAlreadyDone)
+        {
+            isInFinishZone = true;
+        }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
@@ -30,6 +39,11 @@ public class FilsElectrique : MonoBehaviour
         {
             playerIsInZone = false;
             ShowInput.SetActive(false);
+        }
+
+        else if (collision.CompareTag("WireFinishZone") && !taskAlreadyDone)
+        {
+            isInFinishZone = false;
         }
     }
 
@@ -47,6 +61,14 @@ public class FilsElectrique : MonoBehaviour
         {
             this.gameObject.transform.position = GameObject.FindGameObjectsWithTag("Player")[0].transform.position;
             ShowInput.SetActive(false);
+
+            if (isInFinishZone)
+            {
+                if (action_Interact.action.WasPressedThisFrame())
+                {
+                    TaskFinished();
+                }
+            }
         }
     }
 
@@ -57,8 +79,13 @@ public class FilsElectrique : MonoBehaviour
 
     public void TaskFinished()
     {
+        gameManager.taskNumberDone += 1;
+
+        isCarryingWire = false;
         taskAlreadyDone = true;
         playerIsInZone = false;
         ShowInput.SetActive(false);
+
+        accessTask.TaskFinished();
     }
 }   

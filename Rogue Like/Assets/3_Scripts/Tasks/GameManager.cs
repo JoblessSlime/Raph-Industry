@@ -39,11 +39,11 @@ public class GameManager : MonoBehaviour
 
         if (taskNumberDone == tasksNumberTotal)
         {
-            NextRoom();
+            OpenNextRoom();
         }
     }
 
-    private void NextRoom()
+    private void OpenNextRoom()
     {
         door.SetActive(false);
     }

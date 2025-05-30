@@ -18,6 +18,8 @@ public class DrMaboul : MonoBehaviour
     private Vector2 basePosition = Vector2.zero;
     private Vector2 baseObjectPos = Vector2.zero;
 
+    public bool taskKills;
+
     private bool isHolding = false;
 
     private void Start()
@@ -80,7 +82,14 @@ public class DrMaboul : MonoBehaviour
 
     void Lose()
     {
-        characterInputs.hp = 0;
+        if (taskKills)
+        {
+            characterInputs.hp = 0;
+        }
+        else
+        {
+            TaskPanel.SetActive(false);
+        }
     }
 
     void Win()
