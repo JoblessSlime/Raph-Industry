@@ -10,6 +10,11 @@ TagManager:
   - Ground
   - WireFinishZone
   - NextRoom
+  - Bread
+  - Cheese
+  - Tomatoes
+  - Tri vert
+  - Tri Violet
   layers:
   - Default
   - TransparentFX
