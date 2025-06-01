@@ -46,6 +46,8 @@ public class Sandwhich : MonoBehaviour
 
     private int sandwichPart;
 
+    private bool alreadyHold1 = false;
+
     private void Start()
     {
         Cursor.lockState = CursorLockMode.None;
@@ -98,6 +100,7 @@ public class Sandwhich : MonoBehaviour
         List<RaycastResult> results = new List<RaycastResult>();
         raycaster.Raycast(pointerData, results);
 
+        alreadyHold1 = false;
         foreach (RaycastResult result in results)
         {
             GameObject hitObject = result.gameObject;
@@ -105,8 +108,10 @@ public class Sandwhich : MonoBehaviour
             // tags
             if (hitObject.CompareTag("Bread"))
             {
-                if (action_Interact.action.IsPressed() && !hitObject.GetComponent<AlreadyDeposed>().alreadyDeposed)
+                Debug.Log("seeBread");
+                if (action_Interact.action.IsPressed() && !hitObject.GetComponent<AlreadyDeposed>().alreadyDeposed && !alreadyHold1)
                 {
+                    alreadyHold1 = true;
                     Debug.Log("Yes!");
                     hitObject.transform.position = pointerData.position;
                     isHolding = true;
@@ -118,8 +123,9 @@ public class Sandwhich : MonoBehaviour
 
             else if (hitObject.CompareTag("Tomatoes"))
             {
-                if (action_Interact.action.IsPressed() && !hitObject.GetComponent<AlreadyDeposed>().alreadyDeposed)
+                if (action_Interact.action.IsPressed() && !hitObject.GetComponent<AlreadyDeposed>().alreadyDeposed && !alreadyHold1)
                 {
+                    alreadyHold1 = true;
                     Debug.Log("Yes!");
                     hitObject.transform.position = pointerData.position;
                     isHolding = true;
@@ -131,8 +137,9 @@ public class Sandwhich : MonoBehaviour
 
             else if (hitObject.CompareTag("Cheese"))
             {
-                if (action_Interact.action.IsPressed() && !hitObject.GetComponent<AlreadyDeposed>().alreadyDeposed)
+                if (action_Interact.action.IsPressed() && !hitObject.GetComponent<AlreadyDeposed>().alreadyDeposed && !alreadyHold1)
                 {
+                    alreadyHold1 = true;
                     Debug.Log("Yes!");
                     hitObject.transform.position = pointerData.position;
                     isHolding = true;
@@ -149,8 +156,9 @@ public class Sandwhich : MonoBehaviour
                 Lose();
             }
 
-            else if (hitObject.CompareTag("Finish") && isHolding)
+            if (hitObject.CompareTag("Finish") && isHolding)
             {
+                Debug.Log("seeFinish");
                 if (action_Interact.action.WasReleasedThisFrame())
                 {
                     isHolding = false;
@@ -163,10 +171,11 @@ public class Sandwhich : MonoBehaviour
                         else
                         {
                             bread.GetComponent<AlreadyDeposed>().alreadyDeposed = false;
-                            Instantiate(bread, breadSpawner.transform);
+                            GameObject newGO = Instantiate(bread, breadSpawner.transform);
+                            newGO.transform.localPosition = Vector3.zero;
                             bread.GetComponent<AlreadyDeposed>().alreadyDeposed = true;
                             carriedObject.GetComponent<AlreadyDeposed>().alreadyDeposed = true;
-                            carriedObject.transform.SetParent(sandwich.transform);
+                            //carriedObject.transform.SetParent(sandwich.transform);
                         }
                     }
                     else if (carriescheese && sandwich_composition[sandwichPart] == cheese)
@@ -178,10 +187,11 @@ public class Sandwhich : MonoBehaviour
                         else
                         {
                             cheese.GetComponent<AlreadyDeposed>().alreadyDeposed = false;
-                            Instantiate(cheese, cheeseSpawner.transform);
+                            GameObject newGO = Instantiate(cheese, cheeseSpawner.transform);
+                            newGO.transform.localPosition = Vector3.zero;
                             cheese.GetComponent<AlreadyDeposed>().alreadyDeposed = true;
                             carriedObject.GetComponent<AlreadyDeposed>().alreadyDeposed = true;
-                            carriedObject.transform.SetParent(sandwich.transform);
+                            //carriedObject.transform.SetParent(sandwich.transform);
                         }
                     }
                     else if (carriesTomatoes && sandwich_composition[sandwichPart] == tomatoes)
@@ -193,10 +203,11 @@ public class Sandwhich : MonoBehaviour
                         else
                         {
                             tomatoes.GetComponent<AlreadyDeposed>().alreadyDeposed = false;
-                            Instantiate(tomatoes, tomatoesSpawner.transform);
+                            GameObject newGO = Instantiate(tomatoes, tomatoesSpawner.transform);
+                            newGO.transform.localPosition = Vector3.zero;
                             tomatoes.GetComponent<AlreadyDeposed>().alreadyDeposed = true;
                             carriedObject.GetComponent<AlreadyDeposed>().alreadyDeposed = true;
-                            carriedObject.transform.SetParent(sandwich.transform);
+                            //carriedObject.transform.SetParent(sandwich.transform);
                         }
                     }
                     else

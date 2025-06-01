@@ -11,12 +11,13 @@ public class FuiteGaz : MonoBehaviour
     public bool taskAlreadyDone = false;
     public bool playerIsInZone = false;
     public SpriteRenderer thisImage;
+    public GameObject taskGameObject;
     public Sprite spriteFinished;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        thisImage = taskGameObject.GetComponent<SpriteRenderer>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -43,6 +44,7 @@ public class FuiteGaz : MonoBehaviour
         {
             if (action_Interact.action.WasPressedThisFrame())
             {
+                Debug.Log("PlayingTask");
                 PlayTask();
             }
         }
@@ -50,10 +52,8 @@ public class FuiteGaz : MonoBehaviour
 
     void PlayTask()
     {
-        if (TaskPanel != null)
-        {
-            thisImage.sprite = spriteFinished;
-        }
+        thisImage.sprite = spriteFinished;
+        TaskFinished();
     }
 
     public void TaskFinished()
