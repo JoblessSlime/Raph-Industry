@@ -17,7 +17,7 @@ public class FilsElectrique : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        gameManager = GameObject.FindFirstObjectByType<GameManager>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

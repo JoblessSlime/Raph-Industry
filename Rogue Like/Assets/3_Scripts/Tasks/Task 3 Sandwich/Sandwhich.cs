@@ -55,6 +55,8 @@ public class Sandwhich : MonoBehaviour
         basePosition = Input.mousePosition;
         baseObjectPos = gameObject.transform.position;
 
+        gameManager = GameObject.FindFirstObjectByType<GameManager>();
+
         int numberOfIngredients = Random.Range(3, 7);
         string text = "";
         for (int i = 0; i < numberOfIngredients; i++)

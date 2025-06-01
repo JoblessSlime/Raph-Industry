@@ -26,6 +26,8 @@ public class Souriciere : MonoBehaviour
 
         basePosition = Input.mousePosition;
         baseObjectPos = gameObject.transform.position;
+
+        gameManager = GameObject.FindFirstObjectByType<GameManager>();
     }
     void Update()
     {

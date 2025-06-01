@@ -35,11 +35,10 @@ public class Cristaux : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = false;
 
-
         basePosition = Input.mousePosition;
         baseObjectPos = gameObject.transform.position;
 
-
+        gameManager = GameObject.FindFirstObjectByType<GameManager>();
     }
     void Update()
     {

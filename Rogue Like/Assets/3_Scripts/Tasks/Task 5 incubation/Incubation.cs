@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class Incubation : MonoBehaviour
 {
     public Image incubation_slider;
+    public Image incubation_sliderCanvas2;
     public TextMeshProUGUI incubation_timer;
     public float incubation_time;
     private float time_incubating;
@@ -27,6 +28,8 @@ public class Incubation : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         incubation_timer.text = ((int)incubation_time).ToString();
+
+        gameManager = GameObject.FindFirstObjectByType<GameManager>();
     }
 
     // Update is called once per frame
@@ -36,6 +39,7 @@ public class Incubation : MonoBehaviour
         {
             time_incubating += Time.deltaTime;
             incubation_slider.fillAmount = Mathf.Clamp01(1 - (time_incubating / incubation_time));
+            incubation_sliderCanvas2.fillAmount = Mathf.Clamp01(1 - (time_incubating / incubation_time));
             incubation_timer.text = ((int)(incubation_time - time_incubating)).ToString();
             if (time_incubating >= incubation_time)
             {
