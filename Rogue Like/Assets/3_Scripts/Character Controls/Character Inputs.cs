@@ -9,6 +9,8 @@ public class CharacterInputs : MonoBehaviour
     [Header("---------- Scripts ----------")]
     public NewController2D newController2D;
 
+    private GameManager gameManager;
+
     [Header("---------- Inputs ----------")]
     public InputActionReference action_Crouch;
     public InputActionReference action_Interact;
@@ -61,6 +63,7 @@ public class CharacterInputs : MonoBehaviour
 
     [Header("---------- Stats ----------")]
     public int hp = 2;
+    public Manager manager_scriptable;
 
     private bool isInTaskZone;
     private bool isInHoldZone;
@@ -75,6 +78,8 @@ public class CharacterInputs : MonoBehaviour
         // Initialize Camera Values
         cameraPositionComposer.TargetOffset = Base_CameraPos;
         c_Camera.Lens.OrthographicSize = Base_CameraZoom;
+
+        gameManager = GameObject.FindFirstObjectByType<GameManager>();
     }
 
     void OnEnable()
@@ -105,6 +110,11 @@ public class CharacterInputs : MonoBehaviour
             Debug.Log("is in kill zone");
             hp = 0;
         }
+
+        else if (collision.CompareTag("NextRoom"))
+        {
+            EnterNextRoom();
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -117,10 +127,6 @@ public class CharacterInputs : MonoBehaviour
         else if (collision.CompareTag("HoldObject"))
         {
             isInHoldZone = false;
-        }
-        else if (collision.CompareTag("NextRoom"))
-        {
-            EnterNextRoom();
         }
     }
 
@@ -227,6 +233,11 @@ public class CharacterInputs : MonoBehaviour
 
     void Death()
     {
+        manager_scriptable.NumberOfRoomsPassed = 0;
+        manager_scriptable.NumberOfDaysPassed = 0;
+        manager_scriptable.planetsDone.Clear();
+        manager_scriptable.TimePassed = manager_scriptable.InitialTime;
+
         Debug.Log("Death");
         // Reinitialize game
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
@@ -234,6 +245,17 @@ public class CharacterInputs : MonoBehaviour
 
     private void EnterNextRoom()
     {
+        manager_scriptable.NumberOfRoomsPassed++;
+        if(manager_scriptable.NumberOfRoomsPassed >= manager_scriptable.NumberOfRooms)
+        {
+            manager_scriptable.NumberOfDaysPassed++;
+            manager_scriptable.planetsDone.Add(manager_scriptable.NumberOfDaysPassed);
+            manager_scriptable.TimePassed = manager_scriptable.InitialTime;
+            SceneManager.LoadScene("ChangingPlanet");
+            return;
+        }
+
+        manager_scriptable.TimePassed = gameManager.timerLength;
         int sceneNumber = Random.Range(0, scenes.Count);
         int buildIndex = 0;
         while (scenes[sceneNumber] == SceneManager.GetActiveScene().name || buildIndex < 0)

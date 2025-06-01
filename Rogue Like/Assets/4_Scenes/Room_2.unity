@@ -196,7 +196,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &98616747
 Transform:
   m_ObjectHideFlags: 0
@@ -328,6 +328,7 @@ MonoBehaviour:
   taskNumberDone: 0
   taskText: {fileID: 1899634771}
   door: {fileID: 1551583589}
+  manager_scriptable: {fileID: 11400000, guid: 8a74a32eb18a6ab418a4ae3891bcbb79, type: 2}
 --- !u!114 &203434777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -804,6 +805,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   hp: 2
+  manager_scriptable: {fileID: 11400000, guid: 8a74a32eb18a6ab418a4ae3891bcbb79, type: 2}
 --- !u!212 &241968839
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1491,6 +1493,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   hp: 2
+  manager_scriptable: {fileID: 11400000, guid: 8a74a32eb18a6ab418a4ae3891bcbb79, type: 2}
 --- !u!212 &327684381
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4743,7 +4746,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1196417421
 Transform:
   m_ObjectHideFlags: 0
@@ -4830,7 +4833,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1222172871
 Transform:
   m_ObjectHideFlags: 0
@@ -5335,7 +5338,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1691456096
 Transform:
   m_ObjectHideFlags: 0
@@ -5422,7 +5425,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1738528507
 Transform:
   m_ObjectHideFlags: 0
@@ -5706,6 +5709,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1980413677}
+  - component: {fileID: 1980413678}
   m_Layer: 0
   m_Name: Backgrounds
   m_TagString: Untagged
@@ -5733,6 +5737,25 @@ Transform:
   - {fileID: 98616747}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1980413678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980413676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c17fae0db1411074e9b81457999747eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planet_backgrounds:
+  - {fileID: 1738528506}
+  - {fileID: 1691456095}
+  - {fileID: 1196417420}
+  - {fileID: 1222172870}
+  - {fileID: 98616746}
+  manager_scriptable: {fileID: 11400000, guid: 8a74a32eb18a6ab418a4ae3891bcbb79, type: 2}
 --- !u!1 &2048486384
 GameObject:
   m_ObjectHideFlags: 0
@@ -6223,6 +6246,10 @@ PrefabInstance:
     - target: {fileID: 9166049138545280350, guid: 33077ab2848bcb041a718cd8991c58ce, type: 3}
       propertyPath: m_Name
       value: Cables
+      objectReference: {fileID: 0}
+    - target: {fileID: 9166049138545280350, guid: 33077ab2848bcb041a718cd8991c58ce, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -17,11 +17,12 @@ public class GameManager : MonoBehaviour
 
     // Door
     public GameObject door;
+    public Manager manager_scriptable;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        timerLength = manager_scriptable.TimePassed;
     }
 
     // Update is called once per frame
