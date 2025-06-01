@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "aper\xE7u_0": 2706750533879675476
+      "aper\xE7u_1": -6015048322843809945
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
