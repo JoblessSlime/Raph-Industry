@@ -1,0 +1,2106 @@
+fileFormatVersion: 2
+guid: b10fabe8675cad74b89e18339c432fe2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1781407419429470612
+    second: etoiles_0
+  - first:
+      213: 7886855489360715014
+    second: etoiles_1
+  - first:
+      213: -5959665306084611331
+    second: etoiles_2
+  - first:
+      213: -3033798935159329113
+    second: etoiles_3
+  - first:
+      213: 7056438628443402660
+    second: etoiles_4
+  - first:
+      213: -594880767477962234
+    second: etoiles_5
+  - first:
+      213: -444350174860665878
+    second: etoiles_6
+  - first:
+      213: 5840939332592147847
+    second: etoiles_7
+  - first:
+      213: -2986364256604433193
+    second: etoiles_8
+  - first:
+      213: 4804232899822221671
+    second: etoiles_9
+  - first:
+      213: 4518819551218337903
+    second: etoiles_10
+  - first:
+      213: -4825999753865430311
+    second: etoiles_11
+  - first:
+      213: -2550880076766375798
+    second: etoiles_12
+  - first:
+      213: -3698241791547246463
+    second: etoiles_13
+  - first:
+      213: 2989792271107881735
+    second: etoiles_14
+  - first:
+      213: -2303155435164057531
+    second: etoiles_15
+  - first:
+      213: 8297905315302368158
+    second: etoiles_16
+  - first:
+      213: 7318282217665501913
+    second: etoiles_17
+  - first:
+      213: -7175285180438543687
+    second: etoiles_18
+  - first:
+      213: -1982885648934706282
+    second: etoiles_19
+  - first:
+      213: 2623861847539761337
+    second: etoiles_20
+  - first:
+      213: -2909018851067402898
+    second: etoiles_21
+  - first:
+      213: 2222843850497548767
+    second: etoiles_22
+  - first:
+      213: 7573103199377077321
+    second: etoiles_23
+  - first:
+      213: 4738318115604303679
+    second: etoiles_24
+  - first:
+      213: 2449051809681026396
+    second: etoiles_25
+  - first:
+      213: 3172822515110104296
+    second: etoiles_26
+  - first:
+      213: 7950220728034311672
+    second: etoiles_27
+  - first:
+      213: -8161860463981385726
+    second: etoiles_28
+  - first:
+      213: 529442515278868723
+    second: etoiles_29
+  - first:
+      213: -1880603143464929451
+    second: etoiles_30
+  - first:
+      213: -4331289573375500413
+    second: etoiles_31
+  - first:
+      213: -7698821471544985120
+    second: etoiles_32
+  - first:
+      213: 1352605563747322675
+    second: etoiles_33
+  - first:
+      213: 2993469398193117517
+    second: etoiles_34
+  - first:
+      213: -4552899358593435977
+    second: etoiles_35
+  - first:
+      213: 4381623626525820902
+    second: etoiles_36
+  - first:
+      213: 1397711574439858199
+    second: etoiles_37
+  - first:
+      213: 6303310304133212723
+    second: etoiles_38
+  - first:
+      213: -5990345153895765556
+    second: etoiles_39
+  - first:
+      213: 8968811680655280357
+    second: etoiles_40
+  - first:
+      213: -4685348102497114703
+    second: etoiles_41
+  - first:
+      213: -1850105631586823475
+    second: etoiles_42
+  - first:
+      213: -5142714843672583351
+    second: etoiles_43
+  - first:
+      213: 7892318362702679227
+    second: etoiles_44
+  - first:
+      213: 7286489816434236172
+    second: etoiles_45
+  - first:
+      213: -2193293726225396913
+    second: etoiles_46
+  - first:
+      213: 8577002506958276642
+    second: etoiles_47
+  - first:
+      213: 1301832891754171710
+    second: etoiles_48
+  - first:
+      213: 5945528320745581957
+    second: etoiles_49
+  - first:
+      213: 7108384467784040828
+    second: etoiles_50
+  - first:
+      213: 6521792351765354503
+    second: etoiles_51
+  - first:
+      213: -2279630798241295734
+    second: etoiles_52
+  - first:
+      213: -5679109378800361531
+    second: etoiles_53
+  - first:
+      213: -3616509163060455942
+    second: etoiles_54
+  - first:
+      213: -3659781852353239592
+    second: etoiles_55
+  - first:
+      213: -3566163300292571433
+    second: etoiles_56
+  - first:
+      213: -3897284782295272358
+    second: etoiles_57
+  - first:
+      213: 8118473235668878758
+    second: etoiles_58
+  - first:
+      213: -171921347152807267
+    second: etoiles_59
+  - first:
+      213: 2519249915130451314
+    second: etoiles_60
+  - first:
+      213: 3888942951865958978
+    second: etoiles_61
+  - first:
+      213: -8822414650679045241
+    second: etoiles_62
+  - first:
+      213: 2459469647430535842
+    second: etoiles_63
+  - first:
+      213: 3536921987028201167
+    second: etoiles_64
+  - first:
+      213: 7760964637348703579
+    second: etoiles_65
+  - first:
+      213: -4599063735798947843
+    second: etoiles_66
+  - first:
+      213: 5463079025248204209
+    second: etoiles_67
+  - first:
+      213: 7763069713638443881
+    second: etoiles_68
+  - first:
+      213: -7887433392901140097
+    second: etoiles_69
+  - first:
+      213: -4689439035037042582
+    second: etoiles_70
+  - first:
+      213: -1040560598927205302
+    second: etoiles_71
+  - first:
+      213: 5222993328847716748
+    second: etoiles_72
+  - first:
+      213: -2129145146144206721
+    second: etoiles_73
+  - first:
+      213: 3323155824106016249
+    second: etoiles_74
+  - first:
+      213: 2359857873644058313
+    second: etoiles_75
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: etoiles_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 968
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491c6531c94d8b810800000000000000
+      internalID: 1781407419429470612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_1
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 970
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d5f2ef74db37d60800000000000000
+      internalID: 7886855489360715014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_2
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 955
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa6b92daf30b4da0800000000000000
+      internalID: -5959665306084611331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_3
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 915
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aeaed531f7c5e5d0800000000000000
+      internalID: -3033798935159329113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_4
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 901
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a1b6b3cb818de160800000000000000
+      internalID: 7056438628443402660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_5
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 907
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60aa3c2081f8eb7f0800000000000000
+      internalID: -594880767477962234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_6
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 877
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb1c87ced955d9f0800000000000000
+      internalID: -444350174860665878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_7
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 879
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d13c9506f2f0150800000000000000
+      internalID: 5840939332592147847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_8
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 863
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d45b23f78d4e86d0800000000000000
+      internalID: -2986364256604433193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_9
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 849
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769f5245e501ca240800000000000000
+      internalID: 4804232899822221671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_10
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 837
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f68857aa07216be30800000000000000
+      internalID: 4518819551218337903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_11
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 824
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da7ab80bca960db0800000000000000
+      internalID: -4825999753865430311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 816
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8018b7d514799cd0800000000000000
+      internalID: -2550880076766375798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_13
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 821
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18872594fa43dacc0800000000000000
+      internalID: -3698241791547246463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_14
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 820
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70bf79fda30ed7920800000000000000
+      internalID: 2989792271107881735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_15
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 809
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5404988955c8900e0800000000000000
+      internalID: -2303155435164057531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_16
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 784
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e936c6a8be4182370800000000000000
+      internalID: 8297905315302368158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_17
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 788
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da920e27e2cf8560800000000000000
+      internalID: 7318282217665501913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_18
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 789
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b206d905244c6c90800000000000000
+      internalID: -7175285180438543687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_19
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 781
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 693e60112006b74e0800000000000000
+      internalID: -1982885648934706282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_20
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 747
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0ce42d274d96420800000000000000
+      internalID: 2623861847539761337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_21
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 753
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65663184c611a7d0800000000000000
+      internalID: -2909018851067402898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_22
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 746
+        width: 49
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd1611474b029de10800000000000000
+      internalID: 2222843850497548767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_23
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 710
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944be3e5c31191960800000000000000
+      internalID: 7573103199377077321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_24
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 730
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f8461b833e1c140800000000000000
+      internalID: 4738318115604303679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_25
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 693
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5da09035a7ccf120800000000000000
+      internalID: 2449051809681026396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_26
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 696
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eccf746441280c20800000000000000
+      internalID: 3172822515110104296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_27
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 697
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fdbe6c41abd45e60800000000000000
+      internalID: 7950220728034311672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_28
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 690
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208a512c62f3bbe80800000000000000
+      internalID: -8161860463981385726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_29
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 678
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0bf2c9925f85700800000000000000
+      internalID: 529442515278868723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_30
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 661
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5573a46a761c6e5e0800000000000000
+      internalID: -1880603143464929451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_31
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 655
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f9997c41b24e3c0800000000000000
+      internalID: -4331289573375500413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_32
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 625
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9396769aa482590800000000000000
+      internalID: -7698821471544985120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_33
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 603
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b4064089b65c210800000000000000
+      internalID: 1352605563747322675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_34
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 618
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d499d4dbe80fa8920800000000000000
+      internalID: 2993469398193117517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_35
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 586
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b63fe8d72ad0d0c0800000000000000
+      internalID: -4552899358593435977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_36
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 518
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7c7863977aecc30800000000000000
+      internalID: 4381623626525820902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_37
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 534
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71090f4854ba56310800000000000000
+      internalID: 1397711574439858199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_38
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 511
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a6be2435bd97750800000000000000
+      internalID: 6303310304133212723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_39
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 516
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc96f0c12d40edca0800000000000000
+      internalID: -5990345153895765556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_40
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 502
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e805da64be977c70800000000000000
+      internalID: 8968811680655280357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_41
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 462
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5eb9d89bc4afeb0800000000000000
+      internalID: -4685348102497114703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_42
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 448
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc25158faba1356e0800000000000000
+      internalID: -1850105631586823475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_43
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 454
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94364c1d81861a8b0800000000000000
+      internalID: -5142714843672583351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_44
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 437
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc8f2f4cb5278d60800000000000000
+      internalID: 7892318362702679227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_45
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 439
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b5010f1efce1560800000000000000
+      internalID: 7286489816434236172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_46
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 423
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b0e300afadf81e0800000000000000
+      internalID: -2193293726225396913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_47
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 396
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22802e05652a70770800000000000000
+      internalID: 8577002506958276642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_48
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 383
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d4ded1e1a011210800000000000000
+      internalID: 1301832891754171710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_49
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 375
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58da018c182c28250800000000000000
+      internalID: 5945528320745581957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_50
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 384
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c710c29f20e06a260800000000000000
+      internalID: 7108384467784040828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_51
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 369
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70855d9079f028a50800000000000000
+      internalID: 6521792351765354503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_52
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 368
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8299c3fddf1d50e0800000000000000
+      internalID: -2279630798241295734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_53
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 331
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cfd304fb10cf21b0800000000000000
+      internalID: -5679109378800361531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_54
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 335
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af516d8c3149fcdc0800000000000000
+      internalID: -3616509163060455942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_55
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 336
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d5601fabc7d53dc0800000000000000
+      internalID: -3659781852353239592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_56
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 329
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dec60b6f51728ec0800000000000000
+      internalID: -3566163300292571433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_57
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 300
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5431c2a3201ae9c0800000000000000
+      internalID: -3897284782295272358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_58
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 317
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a54f82f46c9aa070800000000000000
+      internalID: 8118473235668878758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_59
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 306
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a76a512763d9df0800000000000000
+      internalID: -171921347152807267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_60
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 294
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27598c3437c26f220800000000000000
+      internalID: 2519249915130451314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_61
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 289
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242cabd920d48f530800000000000000
+      internalID: 3888942951865958978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_62
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 257
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783d21d4e9c709580800000000000000
+      internalID: -8822414650679045241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_63
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 252
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aac3fe0d9ac12220800000000000000
+      internalID: 2459469647430535842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_64
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 256
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcea51bcecba51130800000000000000
+      internalID: 3536921987028201167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_65
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 257
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5da983e73c74bb60800000000000000
+      internalID: 7760964637348703579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_66
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 250
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff925036e7dc20c0800000000000000
+      internalID: -4599063735798947843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_67
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 225
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b57ec7cd61c0db40800000000000000
+      internalID: 5463079025248204209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_68
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 215
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b430826c6fbbb60800000000000000
+      internalID: 7763069713638443881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_69
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 221
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f71d29a5e153a8290800000000000000
+      internalID: -7887433392901140097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_70
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 172
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6834c81b04cbeeb0800000000000000
+      internalID: -4689439035037042582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_71
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 178
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c1dadf5af2f81f0800000000000000
+      internalID: -1040560598927205302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_72
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 150
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81043e82cccb7840800000000000000
+      internalID: 5222993328847716748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_73
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 146
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f70d3d035c1c372e0800000000000000
+      internalID: -2129145146144206721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_74
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 93
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd0c1d7d983e1e20800000000000000
+      internalID: 3323155824106016249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etoiles_75
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 71
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c676f6ab36efb020800000000000000
+      internalID: 2359857873644058313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      etoiles_0: 1781407419429470612
+      etoiles_1: 7886855489360715014
+      etoiles_10: 4518819551218337903
+      etoiles_11: -4825999753865430311
+      etoiles_12: -2550880076766375798
+      etoiles_13: -3698241791547246463
+      etoiles_14: 2989792271107881735
+      etoiles_15: -2303155435164057531
+      etoiles_16: 8297905315302368158
+      etoiles_17: 7318282217665501913
+      etoiles_18: -7175285180438543687
+      etoiles_19: -1982885648934706282
+      etoiles_2: -5959665306084611331
+      etoiles_20: 2623861847539761337
+      etoiles_21: -2909018851067402898
+      etoiles_22: 2222843850497548767
+      etoiles_23: 7573103199377077321
+      etoiles_24: 4738318115604303679
+      etoiles_25: 2449051809681026396
+      etoiles_26: 3172822515110104296
+      etoiles_27: 7950220728034311672
+      etoiles_28: -8161860463981385726
+      etoiles_29: 529442515278868723
+      etoiles_3: -3033798935159329113
+      etoiles_30: -1880603143464929451
+      etoiles_31: -4331289573375500413
+      etoiles_32: -7698821471544985120
+      etoiles_33: 1352605563747322675
+      etoiles_34: 2993469398193117517
+      etoiles_35: -4552899358593435977
+      etoiles_36: 4381623626525820902
+      etoiles_37: 1397711574439858199
+      etoiles_38: 6303310304133212723
+      etoiles_39: -5990345153895765556
+      etoiles_4: 7056438628443402660
+      etoiles_40: 8968811680655280357
+      etoiles_41: -4685348102497114703
+      etoiles_42: -1850105631586823475
+      etoiles_43: -5142714843672583351
+      etoiles_44: 7892318362702679227
+      etoiles_45: 7286489816434236172
+      etoiles_46: -2193293726225396913
+      etoiles_47: 8577002506958276642
+      etoiles_48: 1301832891754171710
+      etoiles_49: 5945528320745581957
+      etoiles_5: -594880767477962234
+      etoiles_50: 7108384467784040828
+      etoiles_51: 6521792351765354503
+      etoiles_52: -2279630798241295734
+      etoiles_53: -5679109378800361531
+      etoiles_54: -3616509163060455942
+      etoiles_55: -3659781852353239592
+      etoiles_56: -3566163300292571433
+      etoiles_57: -3897284782295272358
+      etoiles_58: 8118473235668878758
+      etoiles_59: -171921347152807267
+      etoiles_6: -444350174860665878
+      etoiles_60: 2519249915130451314
+      etoiles_61: 3888942951865958978
+      etoiles_62: -8822414650679045241
+      etoiles_63: 2459469647430535842
+      etoiles_64: 3536921987028201167
+      etoiles_65: 7760964637348703579
+      etoiles_66: -4599063735798947843
+      etoiles_67: 5463079025248204209
+      etoiles_68: 7763069713638443881
+      etoiles_69: -7887433392901140097
+      etoiles_7: 5840939332592147847
+      etoiles_70: -4689439035037042582
+      etoiles_71: -1040560598927205302
+      etoiles_72: 5222993328847716748
+      etoiles_73: -2129145146144206721
+      etoiles_74: 3323155824106016249
+      etoiles_75: 2359857873644058313
+      etoiles_8: -2986364256604433193
+      etoiles_9: 4804232899822221671
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
