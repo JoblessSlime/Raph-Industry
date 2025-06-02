@@ -67,6 +67,18 @@ public class CharacterInputs : MonoBehaviour
 
     private bool isInTaskZone;
     private bool isInHoldZone;
+    
+    [Header("---------- Animations ----------")]
+    public Animator characterAnimator;
+    public GameObject spriteObject;
+
+    private bool DeathAnimationStarted;
+
+    [Header("---------- Sfx ----------")]
+    public AudioSource AudioSource_Walk;
+    
+
+
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -133,6 +145,8 @@ public class CharacterInputs : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log("Jumping bool" + characterAnimator.GetBool("PlayerJumping"));
+        Debug.Log("Grab bool" + characterAnimator.GetBool("PlayerInteract"));
         ChangeCameraStates();
 
         PlaySounds();
@@ -140,7 +154,32 @@ public class CharacterInputs : MonoBehaviour
         // Death
         if (hp <= 0)
         {
-            Death();
+            if (!DeathAnimationStarted)
+            {
+                characterAnimator.SetBool("PlayerDead", true);
+            }
+            DeathAnimationStarted = true;
+            if (characterAnimator.GetBool("PlayerDead") == false)
+            {
+                Death();
+            }
+        }
+
+        if (newController2D.isRunning)
+        {
+            characterAnimator.SetBool("PlayerRunning", true);
+        }
+        else { characterAnimator.SetBool("PlayerRunning", false); }
+
+        if (newController2D.isWalking)
+        {
+            characterAnimator.SetBool("PlayerWalking", true);
+        }
+        else { characterAnimator.SetBool("PlayerWalking", false); }
+
+        if (newController2D.isOnGround)
+        {
+            characterAnimator.SetBool("PlayerJumping", false);
         }
 
         Inputs();
@@ -152,6 +191,7 @@ public class CharacterInputs : MonoBehaviour
         if (action_Interact.action.WasPressedThisFrame())
         {
             Interact();
+            characterAnimator.SetBool("PlayerInteract", true);
         }
 
         // Crouch
@@ -166,11 +206,22 @@ public class CharacterInputs : MonoBehaviour
 
 
         // Move
+        if (action_Move.action.WasPressedThisFrame())
+        {
 
+        }
         if (action_Move.action.IsInProgress())
         {
             Debug.Log("move Input pressed");
             newController2D.Move(action_Move.action.ReadValue<Vector2>(), action_Run.action.inProgress);
+            if (action_Move.action.ReadValue<Vector2>().x < 0f)
+            {
+                spriteObject.transform.rotation = new Quaternion(0f, 0f, 0f, 0f);
+            }
+            else
+            {
+                spriteObject.transform.rotation = new Quaternion(0f, 180f, 0f, 0f);
+            }
         }
         else
         {
@@ -178,6 +229,10 @@ public class CharacterInputs : MonoBehaviour
         }
 
         // Jump
+        if (action_Jump.action.WasPressedThisFrame())
+        {
+            characterAnimator.SetBool("PlayerJumping", true);
+        }
         if (action_Jump.action.IsInProgress())
         {
             newController2D.Jump(action_Jump.action.WasPressedThisFrame());
