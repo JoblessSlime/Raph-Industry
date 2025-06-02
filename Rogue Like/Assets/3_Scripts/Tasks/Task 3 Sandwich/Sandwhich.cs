@@ -175,7 +175,7 @@ public class Sandwhich : MonoBehaviour
                             newGO.transform.localPosition = Vector3.zero;
                             bread.GetComponent<AlreadyDeposed>().alreadyDeposed = true;
                             carriedObject.GetComponent<AlreadyDeposed>().alreadyDeposed = true;
-                            //carriedObject.transform.SetParent(sandwich.transform);
+                            carriedObject.transform.SetParent(sandwich.transform);
                         }
                     }
                     else if (carriescheese && sandwich_composition[sandwichPart] == cheese)
@@ -191,7 +191,7 @@ public class Sandwhich : MonoBehaviour
                             newGO.transform.localPosition = Vector3.zero;
                             cheese.GetComponent<AlreadyDeposed>().alreadyDeposed = true;
                             carriedObject.GetComponent<AlreadyDeposed>().alreadyDeposed = true;
-                            //carriedObject.transform.SetParent(sandwich.transform);
+                            carriedObject.transform.SetParent(sandwich.transform);
                         }
                     }
                     else if (carriesTomatoes && sandwich_composition[sandwichPart] == tomatoes)
@@ -207,7 +207,7 @@ public class Sandwhich : MonoBehaviour
                             newGO.transform.localPosition = Vector3.zero;
                             tomatoes.GetComponent<AlreadyDeposed>().alreadyDeposed = true;
                             carriedObject.GetComponent<AlreadyDeposed>().alreadyDeposed = true;
-                            //carriedObject.transform.SetParent(sandwich.transform);
+                            carriedObject.transform.SetParent(sandwich.transform);
                         }
                     }
                     else
