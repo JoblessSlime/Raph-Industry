@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f5ca562e04bdada4f92a46c322ba4325
+guid: ef1ee2fe72e2a064abd5f40c2683db7b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8799194013581371910
-    second: planete_2_0
+      213: 4432851810906448654
+    second: "11_fen\xEAtre_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: planete_2_0
+      name: "11_fen\xEAtre_0"
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        y: 30
+        width: 1917
+        height: 981
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: af51dbe2aabf2e580800000000000000
-      internalID: -8799194013581371910
+      spriteID: e03a60b5c37a48d30800000000000000
+      internalID: 4432851810906448654
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      planete_2_0: -8799194013581371910
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
