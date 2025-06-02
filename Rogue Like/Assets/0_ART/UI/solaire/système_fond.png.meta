@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "syst\xE8me_fond_0": -1560390756844792573
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

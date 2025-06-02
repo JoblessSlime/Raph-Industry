@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      apercu_poste de surveillance_0: -2547299214171001088
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

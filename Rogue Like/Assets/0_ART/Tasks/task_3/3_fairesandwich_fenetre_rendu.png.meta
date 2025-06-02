@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      3_fairesandwich_fenetre_rendu_0: -3271598426077205733
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

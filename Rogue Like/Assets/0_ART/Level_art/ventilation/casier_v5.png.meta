@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      casier_v5_0: -4129872596925697611
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

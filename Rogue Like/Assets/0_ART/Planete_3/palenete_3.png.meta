@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      palenete_3_0: -3700891424918177748
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      soleil_system_0: 7544943773026363373
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

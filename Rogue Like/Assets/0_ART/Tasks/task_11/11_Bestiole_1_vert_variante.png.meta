@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      11_Bestiole_1_vert_variante_0: 3538893033972715298
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

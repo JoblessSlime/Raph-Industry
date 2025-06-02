@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      appercu ventilation_0: -8175219596813909860
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

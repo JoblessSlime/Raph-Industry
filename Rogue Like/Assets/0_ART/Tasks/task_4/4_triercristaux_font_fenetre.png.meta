@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      4_triercristaux_font_fenetre_0: -8422190445546475599
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
