@@ -28,8 +28,9 @@ public class DrMaboul : MonoBehaviour
         Cursor.visible = false;
 
         
-        basePosition = Input.mousePosition;
         baseObjectPos = gameObject.transform.position;
+        Input.mousePosition.Set(baseObjectPos.x, baseObjectPos.y, 0f);
+        basePosition = Input.mousePosition;
 
         gameManager = GameObject.FindFirstObjectByType<GameManager>();
     }

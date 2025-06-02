@@ -75,7 +75,8 @@ public class CharacterInputs : MonoBehaviour
     private bool DeathAnimationStarted;
 
     [Header("---------- Sfx ----------")]
-    public AudioSource AudioSource_Walk;
+    public GameObject AudioSource_Walk;
+    public GameObject AudioSource_Run;
     
 
 
@@ -247,7 +248,17 @@ public class CharacterInputs : MonoBehaviour
 
     void PlaySounds()
     {
+        if (newController2D.isRunning && newController2D.isOnGround)
+        {
+            AudioSource_Run.SetActive(true);
+        }
+        else { AudioSource_Run.SetActive(false); }
 
+        if (!newController2D.isRunning && newController2D.isOnGround && newController2D.isWalking)
+        {
+            AudioSource_Walk.SetActive(true);
+        }
+        else { AudioSource_Walk.SetActive(false); }
     }
 
 
