@@ -11,4 +11,6 @@ public class Manager : ScriptableObject
     public float InitialTime;
     public float TimePassed;
     public List<int> planetsDone;
+    public float decelerationTimeAdded;
+    public float speedAdded;
 }

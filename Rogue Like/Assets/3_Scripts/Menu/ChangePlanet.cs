@@ -13,6 +13,7 @@ public class ChangePlanet : MonoBehaviour
     public GameObject Planet4;
     public GameObject Planet5;
     public GameObject Vaisseau;
+
     public Manager manager;
     public float step;
 

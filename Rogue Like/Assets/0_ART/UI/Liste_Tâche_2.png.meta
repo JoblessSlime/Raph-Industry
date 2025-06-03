@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9789fc72d3a1d614d9211d221d36d546
+guid: 9f1a4320525580a4a89b504e2fe14455
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1904435374713001535
-    second: "plan\xE8te_5_0"
+      213: 4818039749503654015
+    second: "Liste_T\xE2che_2_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "plan\xE8te_5_0"
+      name: "Liste_T\xE2che_2_0"
       rect:
         serializedVersion: 2
-        x: 1317
-        y: 27
-        width: 538
-        height: 359
+        x: 217
+        y: 0
+        width: 616
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1c92b88ed161295e0800000000000000
-      internalID: -1904435374713001535
+      spriteID: f7890e600ad1dd240800000000000000
+      internalID: 4818039749503654015
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "plan\xE8te_5_0": -1904435374713001535
+      "Liste_T\xE2che_2_0": 4818039749503654015
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actualPlanet: 0
   NumberOfDaysPassed: 0
-  NumberOfRooms: 3
+  NumberOfRooms: 0
   NumberOfRoomsPassed: 0
-  InitialTime: 300
-  TimePassed: 300
-  planetsDone: 01000000
+  InitialTime: 200
+  TimePassed: 200
+  planetsDone: 
+  decelerationTimeAdded: 0
+  speedAdded: 0

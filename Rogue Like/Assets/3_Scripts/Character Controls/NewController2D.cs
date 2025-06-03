@@ -223,7 +223,7 @@ public class NewController2D : MonoBehaviour
     #endregion
 
     #region Move
-    public void Move(Vector2 moveInput, bool runIsPressed)
+    public void Move(Vector2 moveInput, bool runIsPressed, float speedAdded)
     {
         // variables
         float maxSpeed;
@@ -242,7 +242,7 @@ public class NewController2D : MonoBehaviour
             if (runIsPressed) 
             {
                 Debug.Log("running");
-                maxSpeed = grounded_runSpeed; 
+                maxSpeed = grounded_runSpeed + speedAdded; 
                 isRunning = true;
                 isWalking = false;
             }
@@ -251,7 +251,7 @@ public class NewController2D : MonoBehaviour
             else 
             {
                 Debug.Log("walking");
-                maxSpeed = grounded_maxWalkSpeed; 
+                maxSpeed = grounded_maxWalkSpeed + speedAdded; 
                 isWalking = true;
                 isRunning = false;
             }
@@ -282,7 +282,7 @@ public class NewController2D : MonoBehaviour
                 if (runIsPressed)
                 {
                     Debug.Log("running");
-                    maxSpeed = onAir_runSpeed;
+                    maxSpeed = onAir_runSpeed + speedAdded;
                     isRunning = true;
                     isWalking = false;
                 }
@@ -291,7 +291,7 @@ public class NewController2D : MonoBehaviour
                 else
                 {
                     Debug.Log("walking");
-                    maxSpeed = onAir_maxWalkSpeed;
+                    maxSpeed = onAir_maxWalkSpeed + speedAdded;
                     isWalking = true;
                     isRunning = false;
                 }
@@ -315,7 +315,7 @@ public class NewController2D : MonoBehaviour
         }
     }
 
-    public void StopMoving()
+    public void StopMoving(float decelerationAdded)
     {
         // variables
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
@@ -332,7 +332,7 @@ public class NewController2D : MonoBehaviour
         if (rb.linearVelocity.x != 0)
         {
             // Timers
-            timeOnMovement = Mathf.Clamp(Mathf.Clamp01(timeOnSlowing / grounded_DecelerationTimeToStatic) * grounded_AccelerationTimeToMaxSpeed, 0, timeOnMovement);
+            timeOnMovement = Mathf.Clamp(Mathf.Clamp01(timeOnSlowing / grounded_DecelerationTimeToStatic + decelerationAdded) * grounded_AccelerationTimeToMaxSpeed, 0, timeOnMovement);
             timeOnSlowing += Time.deltaTime;
 
             // On Ground
@@ -343,7 +343,7 @@ public class NewController2D : MonoBehaviour
                 // Decelerate
                 minVelocity = new Vector2(VelocityOnStopping.x, 0f);
 
-                float t = Mathf.Clamp01(timeOnSlowing / grounded_DecelerationTimeToStatic);
+                float t = Mathf.Clamp01(timeOnSlowing / grounded_DecelerationTimeToStatic + decelerationAdded);
                 float shapedT = grounded_DecelerationCurve.Evaluate(t);
 
                 // Debug.Log("shapedT : " + shapedT);

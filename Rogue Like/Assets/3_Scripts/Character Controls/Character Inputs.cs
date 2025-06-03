@@ -214,7 +214,7 @@ public class CharacterInputs : MonoBehaviour
         if (action_Move.action.IsInProgress())
         {
             Debug.Log("move Input pressed");
-            newController2D.Move(action_Move.action.ReadValue<Vector2>(), action_Run.action.inProgress);
+            newController2D.Move(action_Move.action.ReadValue<Vector2>(), action_Run.action.inProgress, manager_scriptable.speedAdded);
             if (action_Move.action.ReadValue<Vector2>().x < 0f)
             {
                 spriteObject.transform.rotation = new Quaternion(0f, 0f, 0f, 0f);
@@ -226,7 +226,7 @@ public class CharacterInputs : MonoBehaviour
         }
         else
         {
-            newController2D.StopMoving();
+            newController2D.StopMoving(manager_scriptable.decelerationTimeAdded);
         }
 
         // Jump
@@ -306,7 +306,7 @@ public class CharacterInputs : MonoBehaviour
 
         Debug.Log("Death");
         // Reinitialize game
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene("MainMenu");
     }
 
     private void EnterNextRoom()
