@@ -2,7 +2,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using System.Collections.Generic;
-using Unity.VisualScripting;
+using UnityEngine.InputSystem;
+using UnityEngine.UIElements;
 
 public class Souriciere : MonoBehaviour
 {
@@ -21,11 +22,14 @@ public class Souriciere : MonoBehaviour
 
     private void Start()
     {
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = false;
+        UnityEngine.Cursor.lockState = CursorLockMode.None;
+        UnityEngine.Cursor.visible = false;
 
-        basePosition = Input.mousePosition;
+
         baseObjectPos = gameObject.transform.position;
+        Input.mousePosition.Set(baseObjectPos.x, baseObjectPos.y, 0f);
+        Mouse.current.WarpCursorPosition(baseObjectPos);
+        basePosition = gameObject.transform.position;
 
         gameManager = GameObject.FindFirstObjectByType<GameManager>();
     }

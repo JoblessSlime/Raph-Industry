@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using System.Collections.Generic;
 using UnityEngine.InputSystem;
+using UnityEngine.UIElements;
 
 public class DrMaboul : MonoBehaviour
 {
@@ -24,13 +25,14 @@ public class DrMaboul : MonoBehaviour
 
     private void Start()
     {
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = false;
+        UnityEngine.Cursor.lockState = CursorLockMode.None;
+        UnityEngine.Cursor.visible = false;
 
         
         baseObjectPos = gameObject.transform.position;
         Input.mousePosition.Set(baseObjectPos.x, baseObjectPos.y, 0f);
-        basePosition = Input.mousePosition;
+        Mouse.current.WarpCursorPosition(baseObjectPos);
+        basePosition = gameObject.transform.position;
 
         gameManager = GameObject.FindFirstObjectByType<GameManager>();
     }

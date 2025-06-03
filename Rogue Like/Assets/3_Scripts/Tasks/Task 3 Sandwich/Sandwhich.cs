@@ -55,7 +55,7 @@ public class Sandwhich : MonoBehaviour
 
 
         basePosition = Input.mousePosition;
-        baseObjectPos = gameObject.transform.position;
+        baseObjectPos = Input.mousePosition;
 
         gameManager = GameObject.FindFirstObjectByType<GameManager>();
 

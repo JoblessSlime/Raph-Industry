@@ -4,6 +4,8 @@ using UnityEngine.UI;
 public class ChangeColor : MonoBehaviour
 {
     public Image cristalImage;
+    public Sprite spriteViolet;
+    public Sprite spriteVert;
     public Color vert;
     public Color violet;
     public bool isViolet;
@@ -22,10 +24,12 @@ public class ChangeColor : MonoBehaviour
 
         if (isViolet)
         {
+            cristalImage.sprite = spriteViolet;
             cristalImage.color = violet;
         }
         else
         {
+            cristalImage.sprite = spriteVert;
             cristalImage.color = vert;
         }
         timeToSwitch = Random.Range(3.5f, 7f);
@@ -54,11 +58,13 @@ public class ChangeColor : MonoBehaviour
         {
             if (isViolet)
             {
+                cristalImage.sprite = spriteVert;
                 cristalImage.color = vert;
                 isViolet = false;
             }
             else
             {
+                cristalImage.sprite = spriteViolet;
                 cristalImage.color = violet;
                 isViolet = true;
             }

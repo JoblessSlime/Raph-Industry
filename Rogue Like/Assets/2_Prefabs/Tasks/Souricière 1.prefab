@@ -80,6 +80,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5912741879152867604, guid: 59acf7d014d6d1c4490c40725142936a, type: 3}
+      propertyPath: taskKills
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6327495983327010647, guid: 59acf7d014d6d1c4490c40725142936a, type: 3}
       propertyPath: m_Name
       value: "Sourici\xE8re"
